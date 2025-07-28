@@ -1,0 +1,48 @@
+🐍 1. Python (recomendado: versão 3.10 ou 3.11)
+🔗 Download oficial:
+👉 https://www.python.org/downloads/windows/
+
+🟡 Durante a instalação:
+✔️ Marque a opção "Add Python to PATH"
+
+📖 2. Tesseract OCR (reconhecimento de texto)
+🔗 Download do instalador para Windows (.exe):
+👉 https://github.com/UB-Mannheim/tesseract/wiki
+
+📦 Versão recomendada (estável e fácil):
+👉 Baixar direto
+
+📁 Instala por padrão em:
+C:\Program Files\Tesseract-OCR\tesseract.exe
+
+🔤 2.1. Idioma Português (por.traineddata)
+Caso o Tesseract não venha com o idioma por:
+
+🔗 Baixe o arquivo de idioma:
+👉 https://github.com/tesseract-ocr/tessdata/blob/main/por.traineddata
+(Clique com o botão direito → "Salvar como")
+
+📁 Salve o arquivo dentro da pasta:
+
+C:\Program Files\Tesseract-OCR\tessdata
+Se a pasta tessdata não existir, você pode criá-la manualmente.
+
+📄 3. Poppler for Windows (usado para converter PDF em imagem)
+🔗 Página oficial:
+👉 https://github.com/oschwartz10612/poppler-windows/releases
+
+📦 Baixe a versão mais recente (arquivo .zip)
+Exemplo: poppler-24.08.0.zip
+
+📁 Extraia para uma pasta como:
+C:\poppler ou C:\Users\Robert\Desktop\Coisax\poppler-24.08.0
+
+No final, o caminho importante será:
+
+C:\Users\Robert\Desktop\Coisax\poppler-24.08.0\Library\bin
+📦 4. Dependências do Python
+
+
+Depois de instalar o Python, abra o terminal (ou PowerShell) e instale as bibliotecas:
+
+pip install pytesseract pdf2image pillow

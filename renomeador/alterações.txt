@@ -1,0 +1,22 @@
+ CAMINHOS QUE VOCÊ DEVE AJUSTAR EM OUTROS PCS
+1. Caminho do executável do Tesseract OCR
+No seu código atual:
+
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+⚠️ Ajuste se o Tesseract for instalado em outro local (ex: D:\Tesseract\tesseract.exe)
+
+2. Caminho da pasta bin do Poppler
+No seu código atual:
+poppler_path = r'C:\Users\Robert\Desktop\Coisax\poppler-24.08.0\Library\bin'
+
+⚠️ Altere de acordo com o local onde o Poppler foi extraído em outra máquina.
+Exemplo comum:
+poppler_path = r'C:\poppler\Library\bin'
+
+3. Pasta onde estão os PDFs ainda não renomeados
+input_folder = r'C:\Users\Robert\Desktop\renomeador\pdf'
+⚠️ Ajuste caso esteja em outro lugar (por exemplo: pen drive, pasta da rede, etc)
+
+4. Pasta onde os PDFs renomeados devem ser salvos
+output_folder = r'C:\Users\Robert\Desktop\renomeador\renomeadospdf'
+⚠️ Altere se quiser que os arquivos saiam em outro caminho
