@@ -52,10 +52,10 @@ Durante meu período como **Jovem Aprendiz em TI & Helpdesk + Administração** 
 ### 📂 Estrutura do Projeto  
 
 📦 renomeadorpdf
-┣ 📜 renomeador.py # Script principal
-┣ 📜 criar pastas.bat # Gera diretórios de entrada e saída
-┣ 📜 dependencias.txt # Dependências do projeto
-┣ 📜 alterações.txt # Histórico de alterações
+- 📜 renomeador.py # Script principal
+- 📜 criar pastas.bat # Gera diretórios de entrada e saída
+- 📜 dependencias.txt # Dependências do projeto
+- 📜 alterações.txt # Histórico de alterações
 
 
 ---
@@ -119,10 +119,10 @@ During my time as an **IT & Helpdesk + Administration Apprentice** at **Weclix**
 ### 📂 Project Structure  
 
 📦 renomeadorpdf
-┣ 📜 renomeador.py # Main script
-┣ 📜 criar pastas.bat # Creates input/output folders
-┣ 📜 dependencias.txt # Project dependencies
-┣ 📜 alterações.txt # Change log
+- 📜 renomeador.py # Main script
+- 📜 criar pastas.bat # Creates input/output folders
+- 📜 dependencias.txt # Project dependencies
+- 📜 alterações.txt # Change log
 
 
 ---
