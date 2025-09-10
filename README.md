@@ -55,7 +55,7 @@ Durante meu período como **Jovem Aprendiz em TI & Helpdesk + Administração** 
 - 📜 renomeador.py # Script principal
 - 📜 criar pastas.bat # Gera diretórios de entrada e saída
 - 📜 dependencias.txt # Dependências do projeto
-- 📜 alterações.txt # Histórico de alterações
+- 📜 alterações.txt # Alterações por PC
 
 
 ---
@@ -122,7 +122,7 @@ During my time as an **IT & Helpdesk + Administration Apprentice** at **Weclix**
 - 📜 renomeador.py # Main script
 - 📜 criar pastas.bat # Creates input/output folders
 - 📜 dependencias.txt # Project dependencies
-- 📜 alterações.txt # Change log
+- 📜 alterações.txt # Change in your PC
 
 
 ---
